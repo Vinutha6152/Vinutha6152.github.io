@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vinutha CM | Software Developer – Web, AI/ML & Data</title>
+<meta name="description" content="Portfolio of Vinutha CM, a Computer Science graduate building full stack web applications and exploring AI/ML and data. Based in Bengaluru, India.">
+<meta name="theme-color" content="#0a1220">
+<meta property="og:title" content="Vinutha CM | Software Developer">
+<meta property="og:description" content="Full stack development, Python & SQL, AI/ML and data curation.">
+<meta property="og:url" content="https://vinutha6152.github.io/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<script>try{document.documentElement.dataset.theme=localStorage.getItem('theme')||'dark'}catch(e){document.documentElement.dataset.theme='dark'}</script>
+<style>
+:root{--bg:#0a1220;--bg2:#0e1829;--card:#111d31;--tx:#e6edf6;--mu:#93a6bf;--ac:#2dd4bf;--ac2:#22d3ee;--bd:#1f3050}
+[data-theme=light]{--bg:#f5f9fc;--bg2:#eaf1f7;--card:#fff;--tx:#0e1a2b;--mu:#4a5d75;--ac:#0d9488;--ac2:#0e7490;--bd:#d3e0ec}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{background:var(--bg);color:var(--tx);font:400 1rem/1.65 Figtree,system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3,.logo{font-family:Sora,system-ui,sans-serif;letter-spacing:-.02em}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--ac2);outline-offset:3px}
+.wrap{width:min(1120px,100% - 2.5rem);margin-inline:auto}
+.nav{position:fixed;inset:0 0 auto;z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--bd)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-weight:700;font-size:1.2rem;color:var(--ac)}
+.links{display:flex;gap:.2rem}
+.links a{padding:.45rem .65rem;border-radius:8px;color:var(--mu);font-size:.88rem;transition:color .2s}
+.links a:hover,.links a.on{color:var(--ac)}
+.acts{display:flex;gap:.5rem}
+.ib{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:12px;border:1px solid var(--bd);background:var(--card);color:var(--tx);cursor:pointer;font-size:1.05rem;transition:.2s}
+.ib:hover{border-color:var(--ac);color:var(--ac);transform:translateY(-2px)}
+#menu{display:none}
+.hero{min-height:100svh;display:flex;align-items:center;padding:7rem 0 4rem;background:radial-gradient(60rem 30rem at 85% 10%,color-mix(in srgb,var(--ac) 14%,transparent),transparent 70%)}
+.hero-in{display:grid;grid-template-columns:1.3fr 1fr;gap:3rem;align-items:center}
+.hello{color:var(--mu);font-size:1.1rem}
+h1{font-size:clamp(2.8rem,9vw,5.5rem);line-height:1.02;margin:.2rem 0 .8rem}
+.title{font-weight:500;font-size:clamp(1rem,2.4vw,1.25rem)}
+#rot{height:2rem;margin:.6rem 0 1.2rem;color:var(--ac);font-weight:600;font-size:clamp(1rem,2.4vw,1.2rem);transition:opacity .35s,transform .35s}
+#rot.out{opacity:0;transform:translateY(8px)}
+.lead{max-width:34rem;color:var(--mu);margin-bottom:1.8rem}
+.cta{display:flex;flex-wrap:wrap;gap:.7rem;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:.5rem;min-height:44px;padding:.65rem 1.2rem;border-radius:12px;border:1px solid var(--bd);background:var(--card);font-weight:600;font-size:.95rem;transition:.2s}
+.btn:hover{transform:translateY(-2px);border-color:var(--ac)}
+.btn.p{background:linear-gradient(135deg,var(--ac),var(--ac2));color:#04121a;border:0}
+.btn.p:hover{box-shadow:0 8px 24px -8px var(--ac)}
+.mono{position:relative;aspect-ratio:1;width:min(340px,80%);margin-inline:auto;display:grid;place-items:center}
+.mono b{font:700 clamp(4rem,12vw,6.5rem) Sora,sans-serif;background:linear-gradient(135deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.ring{position:absolute;border-radius:50%;border:1px solid var(--bd);animation:spin 28s linear infinite}
+.r1{inset:0}.r2{inset:12%;animation-duration:20s;animation-direction:reverse;border-style:dashed}.r3{inset:26%;animation-duration:14s;border-color:var(--ac)}
+.r1::after,.r3::after{content:"";position:absolute;top:-5px;left:50%;width:10px;height:10px;border-radius:50%;background:var(--ac2)}
+@keyframes spin{to{transform:rotate(360deg)}}
+section.s{padding:5.5rem 0}
+section.s:nth-of-type(even){background:var(--bg2)}
+h2{font-size:clamp(1.8rem,5vw,2.6rem);margin-bottom:2.2rem;padding-bottom:.9rem;position:relative}
+h2::after{content:"";position:absolute;left:0;bottom:0;width:56px;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--ac),var(--ac2))}
+h3{font-size:1.1rem;line-height:1.3;margin-bottom:.5rem}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:1.5rem;transition:.25s}
+.card:hover{border-color:color-mix(in srgb,var(--ac) 60%,var(--bd))}
+.grid{display:grid;gap:1.1rem}
+.g1{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}
+.g2{grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr))}
+.tags{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.9rem}
+.tags li{padding:.25rem .65rem;border-radius:99px;font-size:.82rem;border:1px solid var(--bd);color:var(--ac);background:color-mix(in srgb,var(--ac) 8%,transparent)}
+.about{display:grid;grid-template-columns:1.4fr 1fr;gap:2rem}
+.about p{max-width:60ch;margin-bottom:1rem;color:var(--mu)}
+.facts{display:grid;gap:.8rem;align-content:start}
+.facts div{border-left:2px solid var(--ac);padding-left:1rem}
+.facts b{display:block;font-size:.95rem}.facts span{color:var(--mu);font-size:.92rem}
+.tl{list-style:none;padding:0 0 0 1.4rem;border-left:2px solid var(--bd);display:grid;gap:1.2rem}
+.tl>li{position:relative}
+.tl>li::before{content:"";position:absolute;left:calc(-1.4rem - 7px);top:1.8rem;width:12px;height:12px;border-radius:50%;background:var(--ac);box-shadow:0 0 0 4px var(--bg)}
+.row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.3rem .8rem;align-items:baseline}
+.date{color:var(--mu);font-size:.88rem}
+.org{color:var(--ac);font-weight:500;font-size:.95rem;margin-bottom:.6rem}
+.pts{padding-left:1.1rem;color:var(--mu);font-size:.95rem}.pts li{margin:.25rem 0}
+.proj{display:flex;flex-direction:column;height:100%}
+.proj:hover{transform:translateY(-6px)}
+.proj>p{color:var(--mu);margin-bottom:.8rem}
+.proj .tags{margin-top:auto;padding-top:.9rem}
+.art{border-radius:12px;background:var(--bg2);border:1px solid var(--bd);margin-bottom:1.1rem;padding:.5rem}
+.art svg{width:100%;height:auto;display:block}
+.nd{fill:color-mix(in srgb,var(--ac) 30%,transparent);stroke:var(--ac);stroke-width:1.5;animation:pl 3.5s ease-in-out infinite}
+.ln{stroke:var(--ac2);stroke-width:1.5;stroke-dasharray:4 4;opacity:.7;fill:none}
+@keyframes pl{50%{fill:color-mix(in srgb,var(--ac2) 55%,transparent)}}
+.note{margin-top:1.1rem}.note p{color:var(--mu);max-width:70ch}
+.ic{font-size:1.5rem;margin-bottom:.5rem}
+.sc{color:var(--ac)}
+.contact{max-width:44rem}.contact>p{color:var(--mu);margin-bottom:1.4rem}
+.contact .mail{margin-top:1.2rem;font-weight:600;color:var(--tx)}
+footer{padding:2rem 0;border-top:1px solid var(--bd);color:var(--mu);font-size:.9rem;text-align:center}
+#top{position:fixed;right:1rem;bottom:1rem;z-index:40;opacity:0;pointer-events:none}
+#top.show{opacity:1;pointer-events:auto}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .6s ease-out,transform .6s ease-out}
+.rv.in{opacity:1;transform:none}
+@media(max-width:900px){
+#menu{display:inline-grid}
+.links{position:fixed;inset:64px 0 auto;flex-direction:column;background:var(--bg);padding:1rem 1.25rem;border-bottom:1px solid var(--bd);transform:translateY(-130%);transition:transform .3s;visibility:hidden}
+.links.open{transform:none;visibility:visible}
+.links a{padding:.8rem;font-size:1rem}
+.hero-in,.about{grid-template-columns:1fr}
+.mono{order:-1;width:min(170px,50%)}
+section.s{padding:4rem 0}
+.hero{padding-top:6rem}}
+@media(max-height:500px) and (orientation:landscape){.hero{min-height:auto}.mono{display:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap nav-in">
+<a href="#home" class="logo" aria-label="Vinutha CM, home">VC</a>
+<nav class="links" id="links" aria-label="Main">
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a></nav>
+<div class="acts"><button class="ib" id="theme" aria-label="Switch theme">☀</button><button class="ib" id="menu" aria-label="Toggle menu" aria-expanded="false">☰</button></div>
+</div></header>
+
+<main>
+<section id="home" class="hero"><div class="wrap hero-in">
+<div>
+<p class="hello">Hi, I’m</p>
+<h1>Vinutha CM</h1>
+<p class="title">Software Developer | Web Development • AI/ML • Data</p>
+<div id="rot">Full Stack Development</div>
+<p class="lead">Computer Science graduate who builds full stack web apps and explores machine learning and data. Based in Bengaluru, India.</p>
+<div class="cta">
+<a class="btn p" href="VinuthaCMResume.pdf" download>⬇ Download Resume</a>
+<a class="btn" href="#projects">View Projects</a>
+<a class="btn" href="https://linkedin.com/in/vinuthacm" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a class="btn" href="https://github.com/Vinutha6152" target="_blank" rel="noopener noreferrer">GitHub</a>
+</div></div>
+<div class="mono" aria-hidden="true"><span class="ring r1"></span><span class="ring r2"></span><span class="ring r3"></span><b>VC</b></div>
+</div></section>
+
+<section id="about" class="s"><div class="wrap">
+<h2 class="rv">About me</h2>
+<div class="about">
+<div class="rv"><p>I’m a Computer Science and Engineering graduate who enjoys software development and emerging technologies. My internships and projects span React and Flask web applications, MySQL databases, deep learning with TensorFlow and Keras, and AI data curation.</p>
+<p>I want to keep sharpening my technical skills, build meaningful applications, explore AI and data-driven technologies, and contribute to real-world projects while growing as a software professional.</p></div>
+<div class="facts rv">
+<div><b>Focus</b><span>Full stack and frontend development</span></div>
+<div><b>Also interested in</b><span>Data analysis, AI/ML and technology-driven roles</span></div>
+<div><b>Education</b><span>B.E. Computer Science and Engineering, VTU (2025)</span></div>
+<div><b>Location</b><span>Bengaluru, India</span></div></div>
+</div></div></section>
+
+<section id="skills" class="s"><div class="wrap">
+<h2 class="rv">Skills</h2>
+<div class="grid g1">
+<div class="card rv"><h3>Programming</h3><ul class="tags"><li>Python</li><li>JavaScript</li><li>SQL</li><li>C</li></ul></div>
+<div class="card rv"><h3>Web Development</h3><ul class="tags"><li>HTML5</li><li>CSS3</li><li>React.js</li><li>Flask</li><li>PHP</li></ul></div>
+<div class="card rv"><h3>Machine Learning & Data</h3><ul class="tags"><li>TensorFlow</li><li>Keras</li><li>Scikit-learn</li><li>Pandas</li><li>NumPy</li></ul></div>
+<div class="card rv"><h3>Databases & Cloud</h3><ul class="tags"><li>MySQL</li><li>Microsoft Azure</li></ul></div>
+<div class="card rv"><h3>Tools</h3><ul class="tags"><li>GitHub</li><li>Postman</li><li>VS Code</li><li>XAMPP</li><li>MS Office</li></ul></div>
+<div class="card rv"><h3>Concepts</h3><ul class="tags"><li>Machine Learning</li><li>Deep Learning</li><li>CNNs</li><li>DBMS</li><li>Data Profiling</li><li>RLHF</li><li>Agile Sprints</li></ul></div>
+</div></div></section>
+
+<section id="experience" class="s"><div class="wrap">
+<h2 class="rv">Experience</h2>
+<ol class="tl">
+<li><div class="card rv"><div class="row"><h3>AI Data Curation & RLHF Intern</h3><span class="date">Oct 2025 – Nov 2025</span></div><p class="org">Skypoint.ai · Bengaluru, India</p>
+<ul class="pts"><li>Prepared and curated datasets for AI using Python and SQL.</li><li>Reviewed and validated data, running quality checks to improve consistency.</li><li>Worked with Reinforcement Learning from Human Feedback (RLHF) processes for model improvement.</li><li>Supported data auditing and validation while following data quality and safety guidelines.</li></ul>
+<ul class="tags"><li>Python</li><li>SQL</li></ul></div></li>
+<li><div class="card rv"><div class="row"><h3>Full Stack Web Developer</h3><span class="date">Aug 2024 – Feb 2025</span></div><p class="org">Varcons Technologies Pvt Ltd · Bengaluru, India</p>
+<ul class="pts"><li>Built web applications with React.js, Python/Flask, MySQL, HTML, CSS and JavaScript.</li><li>Worked on a Learning Management System (LMS) as part of the internship.</li><li>Implemented frontend components and connected them to backend services and databases.</li><li>Gained practical experience in debugging, database handling and Git.</li></ul>
+<ul class="tags"><li>React.js</li><li>Flask</li><li>MySQL</li><li>JavaScript</li></ul></div></li>
+<li><div class="card rv"><div class="row"><h3>Web Development / Technical Intern</h3><span class="date">Aug 2024 – Sep 2024</span></div><p class="org">1stop.ai · Bengaluru, India</p>
+<ul class="pts"><li>Gained hands-on exposure to web development and programming concepts.</li><li>Completed assigned technical tasks and strengthened frontend and application development skills.</li></ul></div></li>
+<li><div class="card rv"><div class="row"><h3>Microsoft Azure Fundamentals Intern</h3><span class="date">Oct 2023 – Nov 2023</span></div><p class="org">In-Biot Pvt Ltd · Bengaluru, India</p>
+<ul class="pts"><li>Learned the fundamentals of Microsoft Azure cloud services.</li><li>Gained exposure to virtual machines, storage, networking and cloud computing concepts.</li></ul>
+<ul class="tags"><li>Microsoft Azure</li></ul></div></li>
+</ol></div></section>
+
+<section id="projects" class="s"><div class="wrap">
+<h2 class="rv">Projects</h2>
+<div class="grid g2">
+<div class="rv"><article class="card proj">
+<div class="art"><svg viewBox="0 0 320 150" role="img" aria-label="Diagram of a convolutional neural network">
+<g class="nd"><rect x="24" y="36" width="34" height="22" rx="4"/><rect x="24" y="62" width="34" height="22" rx="4"/><rect x="24" y="88" width="34" height="22" rx="4"/>
+<rect x="106" y="23" width="31" height="22" rx="4"/><rect x="106" y="49" width="31" height="22" rx="4"/><rect x="106" y="75" width="31" height="22" rx="4"/><rect x="106" y="101" width="31" height="22" rx="4"/>
+<rect x="188" y="36" width="28" height="22" rx="4"/><rect x="188" y="62" width="28" height="22" rx="4"/><rect x="188" y="88" width="28" height="22" rx="4"/>
+<rect x="270" y="49" width="25" height="22" rx="4"/><rect x="270" y="75" width="25" height="22" rx="4"/></g>
+<path class="ln" d="M58 75H106M137 75H188M216 75H270"/></svg></div>
+<h3>Vitiligo Detection using CNN</h3>
+<p>A web application where users upload an image and receive a CNN model’s vitiligo prediction. Also published as a research paper.</p>
+<ul class="pts"><li>Prepared and processed image data and trained the CNN with TensorFlow and Keras.</li><li>Built the prediction flow for image upload and results.</li><li>Integrated the trained model with the website using Flask.</li><li>Worked on both the machine learning model and the web interface.</li></ul>
+<ul class="tags"><li>Python</li><li>TensorFlow</li><li>Keras</li><li>Flask</li></ul></article></div>
+<div class="rv"><article class="card proj">
+<div class="art"><svg viewBox="0 0 320 150" role="img" aria-label="Diagram of a database with rating bars">
+<g class="nd"><ellipse cx="70" cy="40" rx="42" ry="14"/><rect x="160" y="55" width="22" height="70" rx="4"/><rect x="198" y="25" width="22" height="100" rx="4"/><rect x="236" y="75" width="22" height="50" rx="4"/><rect x="274" y="40" width="22" height="85" rx="4"/></g>
+<path class="ln" d="M28 40v60c0 8 19 14 42 14s42-6 42-14V40M28 70c0 8 19 14 42 14s42-6 42-14"/></svg></div>
+<h3>College Rating & Analytics System</h3>
+<p>A web-based system to provide and manage college information and user ratings.</p>
+<ul class="pts"><li>Built the backend and web functionality in PHP.</li><li>Stored college information and user ratings in MySQL.</li><li>Created and managed the database with phpMyAdmin.</li><li>Designed the interface with HTML and CSS, adding JavaScript where needed.</li></ul>
+<ul class="tags"><li>PHP</li><li>Python</li><li>MySQL</li></ul></article></div>
+</div>
+<div class="card note rv"><h3>Learning Management System (LMS)</h3><p>Worked on an LMS during my Full Stack Web Developer internship at Varcons Technologies, building frontend components and connecting them to backend services and databases.</p></div>
+<p class="rv" style="margin-top:1.5rem"><a class="btn" href="https://github.com/Vinutha6152" target="_blank" rel="noopener noreferrer">See more on GitHub</a></p>
+</div></section>
+
+<section id="education" class="s"><div class="wrap">
+<h2 class="rv">Education</h2>
+<div class="grid g2">
+<div class="card rv"><div class="ic">🎓</div><h3>Bachelor of Engineering, Computer Science and Engineering</h3><p class="org">K.S. School of Engineering and Management, Bengaluru · VTU</p><div class="row"><span class="date">2021 – 2025</span><strong class="sc">CGPA 8.76 / 10</strong></div></div>
+<div class="card rv"><div class="ic">🎓</div><h3>Pre-University Course (PCMB)</h3><p class="org">Jnanasweekar PU College</p><div class="row"><span class="date">2019 – 2021</span><strong class="sc">88.33%</strong></div></div>
+</div></div></section>
+
+<section id="certifications" class="s"><div class="wrap">
+<h2 class="rv">Certifications & publication</h2>
+<div class="grid g1">
+<div class="card rv"><div class="ic">📄</div><h3>Research Publication</h3><p class="org">“Vitiligo Detection Using CNN”, peer-reviewed international research journal</p><span class="date">Dec 2024</span></div>
+<div class="card rv"><div class="ic">🏅</div><h3>Web Development</h3><p class="org">Internshala</p></div>
+<div class="card rv"><div class="ic">🏅</div><h3>Data Analysis Using Python</h3><p class="org">IBM SkillsBuild</p><span class="date">2026</span></div>
+<div class="card rv"><div class="ic">🏅</div><h3>SQL & Relational Databases</h3><p class="org">IBM</p></div>
+<div class="card rv"><div class="ic">🏅</div><h3>Strategy & Data Visualization</h3><p class="org">IIT Madras</p></div>
+</div></div></section>
+
+<section id="contact" class="s"><div class="wrap">
+<h2 class="rv">Let’s connect</h2>
+<div class="contact rv">
+<p>I’m looking for software development, data and AI roles. The best way to reach me is by email.</p>
+<div class="cta">
+<a class="btn p" href="mailto:vinu2003cm@gmail.com">✉ Email me</a>
+<a class="btn" href="https://linkedin.com/in/vinuthacm" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<a class="btn" href="https://github.com/Vinutha6152" target="_blank" rel="noopener noreferrer">GitHub</a>
+<a class="btn" href="VinuthaCMResume.pdf" download>⬇ Resume</a></div>
+<p class="mail">vinu2003cm@gmail.com</p>
+</div></div></section>
+</main>
+
+<footer><div class="wrap">© <span id="yr">2026</span> Vinutha CM</div></footer>
+<button class="ib" id="top" aria-label="Back to top">↑</button>
+
+<script>
+(function(){
+var d=document,h=d.documentElement,$=function(i){return d.getElementById(i)};
+var tb=$('theme');
+function setIcon(){tb.textContent=h.dataset.theme==='dark'?'☀':'☾'}
+setIcon();
+tb.onclick=function(){h.dataset.theme=h.dataset.theme==='dark'?'light':'dark';try{localStorage.setItem('theme',h.dataset.theme)}catch(e){}setIcon()};
+var l=$('links'),m=$('menu');
+m.onclick=function(){var o=l.classList.toggle('open');m.setAttribute('aria-expanded',o);m.textContent=o?'✕':'☰'};
+l.onclick=function(e){if(e.target.tagName==='A'){l.classList.remove('open');m.textContent='☰';m.setAttribute('aria-expanded','false')}};
+var R=['Full Stack Development','Python & SQL','Artificial Intelligence & Machine Learning','Data Curation'],i=0,r=$('rot');
+setInterval(function(){r.classList.add('out');setTimeout(function(){i=(i+1)%R.length;r.textContent=R[i];r.classList.remove('out')},350)},2800);
+var rv=d.querySelectorAll('.rv');
+if('IntersectionObserver' in window){
+var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');o.unobserve(e.target)}})},{rootMargin:'0px 0px -60px'});
+rv.forEach(function(x){o.observe(x)});
+var nl=l.querySelectorAll('a');
+var so=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)nl.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id)})})},{rootMargin:'-45% 0px -50% 0px'});
+d.querySelectorAll('section[id]').forEach(function(s){so.observe(s)});
+}else{rv.forEach(function(x){x.classList.add('in')})}
+var t=$('top');
+addEventListener('scroll',function(){t.classList.toggle('show',scrollY>600)},{passive:true});
+t.onclick=function(){scrollTo({top:0,behavior:'smooth'})};
+$('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
